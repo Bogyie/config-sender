@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Config sender options</title>
+  </head>
+  <body>
+    
+    <div>
+      <label for="extId">Extension ID: </label>
+      <input id="extId" type="text" style="width: 48ex" />
+    </div>
+
+    <div>
+      <label for="email">Email: </label>
+      <input id="email" type="text" style="width: 48ex" />
+    </div>
+
+    <div>
+      <label for="exclude">exclude( split by ; ): </label>
+      <input id="exclude" type="text" style="width: 48ex" />
+    </div>
+
+    <div>
+      <label for="awsRegion">AWS Region: </label>
+      <input
+        id="awsRegion"
+        type="text"
+        style="width: 48ex"
+        value="ap-northeast-2"
+      />
+    </div>
+
+    <div>
+      <label for="awsAccessKeyId">AWS Access Key ID: </label>
+      <input id="awsAccessKeyId" type="text" style="width: 48ex" />
+    </div>
+
+    <div>
+      <label for="awsSecretAccessKey">AWS Secret Access Key: </label>
+      <input id="awsSecretAccessKey" type="password" style="width: 48ex" />
+    </div>
+
+    <div>
+      <div id="status"></div>
+      <button id="save">Save</button>
+    </div>
+
+    <script src="options.js"></script>
+  </body>
+</html>
